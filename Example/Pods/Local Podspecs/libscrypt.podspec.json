@@ -1,0 +1,24 @@
+{
+  "name": "libscrypt",
+  "version": "1.22.1",
+  "summary": "Linux scrypt shared library.",
+  "description": "A shared library that implements scrypt() functionality - a replacement for bcrypt().",
+  "homepage": "https://github.com/sunimp/libscrypt",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yang Guang": "holaux@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sunimp/libscrypt.git",
+    "tag": "v1.22.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "libscrypt/*.{h,m,c}",
+  "requires_arc": true,
+  "frameworks": "Foundation"
+}

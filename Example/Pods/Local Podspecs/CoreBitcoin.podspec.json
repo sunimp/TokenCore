@@ -1,0 +1,39 @@
+{
+  "name": "CoreBitcoin",
+  "version": "0.6.9",
+  "summary": "CoreBitcoin is an implementation of Bitcoin protocol in Objective-C.",
+  "description": "CoreBitcoin is a complete toolkit to work with Bitcoin data structures.",
+  "homepage": "https://github.com/sunimp/CoreBitcoin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yang Guang": "holaux@gmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/sunimp/CoreBitcoin.git",
+    "tag": "0.6.9"
+  },
+  "source_files": "CoreBitcoin/*.{h,m}",
+  "exclude_files": [
+    "CoreBitcoin/*+Tests.{h,m}",
+    "CoreBitcoin/BTCScriptTestData.h"
+  ],
+  "requires_arc": true,
+  "frameworks": "Foundation",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "osx": {
+    "frameworks": "AppKit"
+  },
+  "dependencies": {
+    "GRKOpenSSLFramework": [
+
+    ]
+  }
+}

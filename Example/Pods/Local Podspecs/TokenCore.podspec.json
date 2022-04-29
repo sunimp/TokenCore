@@ -1,0 +1,44 @@
+{
+  "name": "TokenCore",
+  "version": "0.1.0",
+  "summary": "Blockchain Library for imToken.",
+  "description": "Token Core Library powering imToken iOS app.",
+  "authors": {
+    "Yang Guang": "holaux@gmail.com"
+  },
+  "homepage": "https://token.im",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "source": {
+    "git": "https://github.com/sunimp/TokenCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "TokenCore/**/*.{h,m,swift}",
+  "swift_versions": "5.0",
+  "dependencies": {
+    "CryptoSwift": [
+
+    ],
+    "BigInt": [
+
+    ],
+    "GRKOpenSSLFramework": [
+
+    ],
+    "CoreBitcoin": [
+
+    ],
+    "libscrypt": [
+
+    ],
+    "secp256k1.swift": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

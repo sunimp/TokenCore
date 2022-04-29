@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (5.6.1)
+  - BigInt (5.3.0)
+  - CoreBitcoin (0.6.9):
+    - GRKOpenSSLFramework
+  - CryptoSwift (1.5.1)
+  - GRKOpenSSLFramework (1.0.2.20.2)
+  - libscrypt (1.22.1)
+  - MBProgressHUD (1.2.0)
+  - PureLayout (3.1.9)
+  - secp256k1.swift (0.1.4)
+  - TokenCore (0.1.0):
+    - BigInt
+    - CoreBitcoin
+    - CryptoSwift
+    - GRKOpenSSLFramework
+    - libscrypt
+    - secp256k1.swift
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6.1)
+  - BigInt (from `https://github.com/attaswift/BigInt.git`)
+  - CoreBitcoin (from `https://github.com/sunimp/CoreBitcoin.git`, tag `0.6.9`)
+  - libscrypt (from `https://github.com/sunimp/libscrypt.git`, tag `v1.22.1`)
+  - MBProgressHUD (~> 1.2.0)
+  - PureLayout
+  - TokenCore (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - GRKOpenSSLFramework
+    - MBProgressHUD
+    - PureLayout
+    - secp256k1.swift
+
+EXTERNAL SOURCES:
+  BigInt:
+    :git: https://github.com/attaswift/BigInt.git
+  CoreBitcoin:
+    :git: https://github.com/sunimp/CoreBitcoin.git
+    :tag: 0.6.9
+  libscrypt:
+    :git: https://github.com/sunimp/libscrypt.git
+    :tag: v1.22.1
+  TokenCore:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  BigInt:
+    :commit: 92a077bc2bb9ca38883b1e9c53c76a88ca5fcf18
+    :git: https://github.com/attaswift/BigInt.git
+  CoreBitcoin:
+    :git: https://github.com/sunimp/CoreBitcoin.git
+    :tag: 0.6.9
+  libscrypt:
+    :git: https://github.com/sunimp/libscrypt.git
+    :tag: v1.22.1
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  BigInt: 6de9bd5382015cc6aef4b0a2b27f6645045829f2
+  CoreBitcoin: 40075758cf0c1769732b6975e65d6b1245f364b3
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  GRKOpenSSLFramework: 01e3dd58a1d865111ac9439841119ff91a26e1f2
+  libscrypt: 65e9fe7cbdf490cbece6c06136a057ab74f74b4d
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  TokenCore: 4268db361cfdfd88651863465a00d7edfe65a276
+
+PODFILE CHECKSUM: 3f3aedc75e158ccd7f3a31d4fb0af8f38392d792
+
+COCOAPODS: 1.11.3
