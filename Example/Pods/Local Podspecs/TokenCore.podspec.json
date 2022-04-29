@@ -1,8 +1,8 @@
 {
   "name": "TokenCore",
   "version": "0.1.0",
-  "summary": "Blockchain Library for imToken.",
-  "description": "Token Core Library powering imToken iOS app.",
+  "summary": "Blockchain Library for Webull.",
+  "description": "Token Core Library powering Wallet.",
   "authors": {
     "Yang Guang": "holaux@gmail.com"
   },

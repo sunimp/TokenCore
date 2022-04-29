@@ -21,6 +21,7 @@ DEPENDENCIES:
   - Alamofire (~> 5.6.1)
   - BigInt (from `https://github.com/attaswift/BigInt.git`)
   - CoreBitcoin (from `https://github.com/sunimp/CoreBitcoin.git`, tag `0.6.9`)
+  - GRKOpenSSLFramework (= 1.0.2.20.2)
   - libscrypt (from `https://github.com/sunimp/libscrypt.git`, tag `v1.22.1`)
   - MBProgressHUD (~> 1.2.0)
   - PureLayout
@@ -68,8 +69,8 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
-  TokenCore: 4268db361cfdfd88651863465a00d7edfe65a276
+  TokenCore: 7d13c757b2c70359c43fe439f6d0be725fbd8235
 
-PODFILE CHECKSUM: 3f3aedc75e158ccd7f3a31d4fb0af8f38392d792
+PODFILE CHECKSUM: 24adb8c3525cfbf26384ef883dbaaca6773ad2f6
 
 COCOAPODS: 1.11.3

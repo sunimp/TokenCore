@@ -8,6 +8,7 @@ target 'TokenCore_Example' do
   pod 'PureLayout'
   pod 'MBProgressHUD', '~> 1.2.0'
   pod 'Alamofire', '~> 5.6.1'
+  pod 'GRKOpenSSLFramework', '1.0.2.20.2'
   pod 'BigInt', git: "https://github.com/attaswift/BigInt.git"
   pod 'CoreBitcoin', git: "https://github.com/sunimp/CoreBitcoin.git", :tag => "0.6.9"
   pod 'libscrypt', git: "https://github.com/sunimp/libscrypt.git", :tag => "v1.22.1"
