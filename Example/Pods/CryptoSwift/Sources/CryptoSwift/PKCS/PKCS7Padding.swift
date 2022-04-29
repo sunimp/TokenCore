@@ -1,7 +1,7 @@
 //
 //  CryptoSwift
 //
-//  Copyright (C) 2014-2021 Marcin Krzyżanowski <marcin@krzyzanowskim.com>
+//  Copyright (C) 2014-2017 Marcin Krzyżanowski <marcin@krzyzanowskim.com>
 //  This software is provided 'as-is', without any express or implied warranty.
 //
 //  In no event will the authors be held liable for any damages arising from the use of this software.
@@ -25,21 +25,23 @@ struct PKCS7Padding: PaddingProtocol {
   init() {
   }
 
-  @inlinable
   func add(to bytes: Array<UInt8>, blockSize: Int) -> Array<UInt8> {
     let padding = UInt8(blockSize - (bytes.count % blockSize))
     var withPadding = bytes
     if padding == 0 {
       // If the original data is a multiple of N bytes, then an extra block of bytes with value N is added.
-      withPadding += Array<UInt8>(repeating: UInt8(blockSize), count: Int(blockSize))
+      for _ in 0..<blockSize {
+        withPadding += Array<UInt8>(arrayLiteral: UInt8(blockSize))
+      }
     } else {
       // The value of each added byte is the number of bytes that are added
-      withPadding += Array<UInt8>(repeating: padding, count: Int(padding))
+      for _ in 0..<padding {
+        withPadding += Array<UInt8>(arrayLiteral: UInt8(padding))
+      }
     }
     return withPadding
   }
 
-  @inlinable
   func remove(from bytes: Array<UInt8>, blockSize _: Int?) -> Array<UInt8> {
     guard !bytes.isEmpty, let lastByte = bytes.last else {
       return bytes

@@ -3,7 +3,7 @@ PODS:
   - BigInt (5.3.0)
   - CoreBitcoin (0.6.9):
     - GRKOpenSSLFramework
-  - CryptoSwift (1.5.1)
+  - CryptoSwift (1.2.0)
   - GRKOpenSSLFramework (1.0.2.20.2)
   - libscrypt (1.22.1)
   - MBProgressHUD (1.2.0)
@@ -12,7 +12,7 @@ PODS:
   - TokenCore (0.1.0):
     - BigInt
     - CoreBitcoin
-    - CryptoSwift
+    - CryptoSwift (= 1.2.0)
     - GRKOpenSSLFramework
     - libscrypt
     - secp256k1.swift
@@ -63,13 +63,13 @@ SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   BigInt: 6de9bd5382015cc6aef4b0a2b27f6645045829f2
   CoreBitcoin: 40075758cf0c1769732b6975e65d6b1245f364b3
-  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  CryptoSwift: 40e374e45291d8dceedcb0d6184da94533eaabdf
   GRKOpenSSLFramework: 01e3dd58a1d865111ac9439841119ff91a26e1f2
   libscrypt: 65e9fe7cbdf490cbece6c06136a057ab74f74b4d
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
-  TokenCore: 7d13c757b2c70359c43fe439f6d0be725fbd8235
+  TokenCore: be7b1ddad2302cce29eaead098145f76ccffd7fd
 
 PODFILE CHECKSUM: 24adb8c3525cfbf26384ef883dbaaca6773ad2f6
 

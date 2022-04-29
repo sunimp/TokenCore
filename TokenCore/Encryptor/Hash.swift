@@ -13,7 +13,7 @@ import CoreBitcoin
 extension Encryptor {
   class Hash {
     static func hmacSHA256(key: Data, data: Data) -> Data {
-        if let hmac = try? HMAC(key: Array(key), variant: .sha2(.sha256)).authenticate(Array(data)) {
+        if let hmac = try? HMAC(key: Array(key), variant: .sha256).authenticate(Array(data)) {
         return Data(hmac)
       } else {
         return Data()
