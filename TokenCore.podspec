@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.source_files = 'TokenCore/**/*.{h,m,swift}'
   s.swift_version = "5.0"
-  s.dependency "CryptoSwift"
+  s.dependency "CryptoSwift", '1.2.0'
   s.dependency "BigInt"
   s.dependency "GRKOpenSSLFramework"
   s.dependency "CoreBitcoin"
