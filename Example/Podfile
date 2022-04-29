@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TokenCore_Example' do
+  pod 'TokenCore', :path => '../'
+
+  target 'TokenCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
