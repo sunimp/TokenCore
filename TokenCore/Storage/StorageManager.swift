@@ -9,10 +9,10 @@
 import Foundation
 
 public struct StorageManager {
-  public static var storageType: Storage.Type = LocalFileStorage.self {
-    didSet {
-      storage = storageType.init()
+    public static var storageType: Storage.Type = LocalFileStorage.self {
+        didSet {
+            storage = storageType.init()
+        }
     }
-  }
-  public static var storage: Storage = StorageManager.storageType.init()
+    public static var storage: Storage = StorageManager.storageType.init()
 }

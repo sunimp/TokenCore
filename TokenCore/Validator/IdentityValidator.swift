@@ -9,31 +9,31 @@
 import Foundation
 
 public struct IdentityValidator: Validator {
-  public typealias Result = Identity
-  // some wallet api doesn't have identifier
-  private let identifier: String?
-
-  public init(_ identifier: String? = nil) {
-    self.identifier = identifier
-  }
-
-  public var isValid: Bool {
-    guard let identity = Identity.currentIdentity else {
-      return false
+    public typealias Result = Identity
+    // some wallet api doesn't have identifier
+    private let identifier: String?
+    
+    public init(_ identifier: String? = nil) {
+        self.identifier = identifier
     }
-    if identifier != nil {
-      return identity.identifier == identifier
+    
+    public var isValid: Bool {
+        guard let identity = Identity.currentIdentity else {
+            return false
+        }
+        if identifier != nil {
+            return identity.identifier == identifier
+        }
+        return true
     }
-    return true
-  }
-
-  public func validate() throws -> Result {
-    guard let identity = Identity.currentIdentity else {
-      throw IdentityError.invalidIdentity
+    
+    public func validate() throws -> Result {
+        guard let identity = Identity.currentIdentity else {
+            throw IdentityError.invalidIdentity
+        }
+        if identifier != nil && identity.identifier != identifier {
+            throw IdentityError.invalidIdentity
+        }
+        return identity
     }
-    if identifier != nil && identity.identifier != identifier {
-      throw IdentityError.invalidIdentity
-    }
-    return identity
-  }
 }

@@ -9,8 +9,8 @@
 import Foundation
 
 protocol Validator {
-  associatedtype Result
-
-  var isValid: Bool { get }
-  func validate() throws -> Result
+    associatedtype Result
+    
+    var isValid: Bool { get }
+    func validate() throws -> Result
 }

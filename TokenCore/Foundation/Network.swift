@@ -9,10 +9,10 @@
 import Foundation
 
 public enum Network: String {
-  case mainnet = "MAINNET"
-  case testnet = "TESTNET"
-
-  var isMainnet: Bool {
-    return self == .mainnet
-  }
+    case mainnet = "MAINNET"
+    case testnet = "TESTNET"
+    
+    var isMainnet: Bool {
+        return self == .mainnet
+    }
 }

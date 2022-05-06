@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = GRKOpenSSLFramework;
+			productName = GRKOpenSSLFramework;
 		};
 /* End PBXAggregateTarget section */
 
@@ -581,10 +582,10 @@
 		0F6B3E69EDD24A72FDE1BF4E020B245C /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult.h; path = secp256k1/Classes/secp256k1/src/ecmult.h; sourceTree = "<group>"; };
 		0FF1A304927740E5E92B779481A572EE /* ZeroPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZeroPadding.swift; path = Sources/CryptoSwift/ZeroPadding.swift; sourceTree = "<group>"; };
 		10115B4C87B69F457A208AF78621E261 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		1044E56139583F5723296070D421DC1A /* crypto_scrypt-check.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto_scrypt-check.c"; path = "libscrypt/crypto_scrypt-check.c"; sourceTree = "<group>"; };
+		1044E56139583F5723296070D421DC1A /* crypto_scrypt-check.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-check.c"; path = "libscrypt/crypto_scrypt-check.c"; sourceTree = "<group>"; };
 		109A728F4C84A30CE656AF241F142C8C /* UInt8+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt8+Extension.swift"; path = "Sources/CryptoSwift/UInt8+Extension.swift"; sourceTree = "<group>"; };
 		115F2935EE49EA1C121FE20634B3CEEA /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		11AE355ECAE97E01BAAD5BBC6D4BB33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11AE355ECAE97E01BAAD5BBC6D4BB33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		11AF4CDA74025C3041D5C6593EA1A92E /* BTCEncryptedBackup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCEncryptedBackup.m; path = CoreBitcoin/BTCEncryptedBackup.m; sourceTree = "<group>"; };
 		125B4298F9AA27E2A6E35180AB5A20BB /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26.h; path = secp256k1/Classes/secp256k1/src/field_10x26.h; sourceTree = "<group>"; };
 		12B644EBCD22B473FF83FBB3E3874095 /* PKCS7.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7.swift; path = Sources/CryptoSwift/PKCS/PKCS7.swift; sourceTree = "<group>"; };
@@ -610,11 +611,11 @@
 		23BEFBA91F421C10F4CA153E48D94916 /* BTCTransactionSigner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BTCTransactionSigner.swift; sourceTree = "<group>"; };
 		2411EA68E87087197DED2FF4000F460B /* Checksum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checksum.swift; path = Sources/CryptoSwift/Checksum.swift; sourceTree = "<group>"; };
 		2467FBE08A8304496A2C062A62A1D465 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		25649F18D899ECE74DEC02D377C24923 /* b64.c */ = {isa = PBXFileReference; includeInIndex = 1; name = b64.c; path = libscrypt/b64.c; sourceTree = "<group>"; };
+		25649F18D899ECE74DEC02D377C24923 /* b64.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = b64.c; path = libscrypt/b64.c; sourceTree = "<group>"; };
 		25908EC8A7827EE2F5E055EC6DBC1002 /* BTCPaymentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentProtocol.h; path = CoreBitcoin/BTCPaymentProtocol.h; sourceTree = "<group>"; };
 		26002E86D759839DD8862031A9C39FF0 /* Hex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
 		269E0064C3B9652582B297BB7F813D45 /* BTCEncryptedMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCEncryptedMessage.m; path = CoreBitcoin/BTCEncryptedMessage.m; sourceTree = "<group>"; };
-		26DFC02509DE48448FD175393F36735F /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = secp256k1/Classes/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
+		26DFC02509DE48448FD175393F36735F /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = secp256k1.c; path = secp256k1/Classes/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
 		27B9E2BB4DB31E4EA8C3132DF8D6106A /* BTCSignatureHashType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCSignatureHashType.h; path = CoreBitcoin/BTCSignatureHashType.h; sourceTree = "<group>"; };
 		2BC6992DFE87B37B64BD5469DAE2B2F9 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = secp256k1/Classes/secp256k1/src/util.h; sourceTree = "<group>"; };
 		2C4F706C0500E8708D69B58F234DB411 /* BTCProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCProcessor.h; path = CoreBitcoin/BTCProcessor.h; sourceTree = "<group>"; };
@@ -625,7 +626,7 @@
 		2DE95E27909509BEAB502FE276F7E760 /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch_impl.h; path = secp256k1/Classes/secp256k1/src/scratch_impl.h; sourceTree = "<group>"; };
 		2EB19BD5AF7E0D5A5AC9B7AE39EFDEEE /* CryptoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoSwift-umbrella.h"; sourceTree = "<group>"; };
 		2ED22DFD4927AB82629E0A6FCE7C3C6D /* CoreBitcoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreBitcoin.release.xcconfig; sourceTree = "<group>"; };
-		2EDB48832D43F1452B96B750D9D29220 /* crypto-scrypt-saltgen.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto-scrypt-saltgen.c"; path = "libscrypt/crypto-scrypt-saltgen.c"; sourceTree = "<group>"; };
+		2EDB48832D43F1452B96B750D9D29220 /* crypto-scrypt-saltgen.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto-scrypt-saltgen.c"; path = "libscrypt/crypto-scrypt-saltgen.c"; sourceTree = "<group>"; };
 		2FD26C6C7BD1C4E5D54E12DB64A539D5 /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_int128_impl.h; path = secp256k1/Classes/secp256k1/src/field_5x52_int128_impl.h; sourceTree = "<group>"; };
 		302C8924D06933273179F9FA9AE7CFEC /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/CryptoSwift/Operators.swift; sourceTree = "<group>"; };
 		30F3BF35711A7F5B8169A0490950CF28 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/include/PureLayoutDefines.h; sourceTree = "<group>"; };
@@ -714,7 +715,7 @@
 		5E358F2ED4BF63E58BE98D2D45F724F5 /* String+FoundationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FoundationExtension.swift"; path = "Sources/CryptoSwift/Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
 		5EAAF5960B5C2006462DC0C8D0D8536E /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch.h; path = secp256k1/Classes/secp256k1/src/scratch.h; sourceTree = "<group>"; };
 		5EC4A8FE823E2F4514839C073ECEA616 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/CryptoSwift/SHA1.swift; sourceTree = "<group>"; };
-		610023429A012A3759F1944BABE182FA /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; name = main.c; path = libscrypt/main.c; sourceTree = "<group>"; };
+		610023429A012A3759F1944BABE182FA /* main.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = main.c; path = libscrypt/main.c; sourceTree = "<group>"; };
 		61458C7731D36C143CCAAE2B52588E6B /* GRKOpenSSLFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKOpenSSLFramework.debug.xcconfig; sourceTree = "<group>"; };
 		617F2D7F52382550906F7F058A9681F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		623DCB407B85D26ACB640552A9FFC537 /* BTCFancyEncryptedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCFancyEncryptedMessage.h; path = CoreBitcoin/BTCFancyEncryptedMessage.h; sourceTree = "<group>"; };
@@ -754,7 +755,7 @@
 		724B24BC9DCD4F0DAEFE35C3E4D66416 /* BTCPaymentMethodDetails.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPaymentMethodDetails.m; path = CoreBitcoin/BTCPaymentMethodDetails.m; sourceTree = "<group>"; };
 		72A9A64BDD0EB9D6092757B7624A3F5C /* b64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = b64.h; path = libscrypt/b64.h; sourceTree = "<group>"; };
 		72B61FE9E8EC759857742D3BF2EBBE84 /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group_impl.h; path = secp256k1/Classes/secp256k1/src/group_impl.h; sourceTree = "<group>"; };
-		72D8A54F62DA6F5E440572223ABF631D /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = secp256k1/Classes/secp256k1/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		72D8A54F62DA6F5E440572223ABF631D /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lax_der_privatekey_parsing.c; path = secp256k1/Classes/secp256k1/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
 		7343360B29AFA47254E553823F444D6C /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa_impl.h; path = secp256k1/Classes/secp256k1/src/ecdsa_impl.h; sourceTree = "<group>"; };
 		736A11B55F0BEDEEF6C0EAF7F8A21C7B /* libscrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.release.xcconfig; sourceTree = "<group>"; };
 		73DC1B0F38D2FA6AC476A25282A058EE /* NS+BTCBase58.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NS+BTCBase58.m"; path = "CoreBitcoin/NS+BTCBase58.m"; sourceTree = "<group>"; };
@@ -805,7 +806,7 @@
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9B3FEF7865011DC753A9B0878862B1 /* libscrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libscrypt.debug.xcconfig; sourceTree = "<group>"; };
 		8C417FAC85BD7FF37AC6BDB17AB54E84 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		8C75FD638059495C09EE47D90E1C0158 /* TokenCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TokenCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C75FD638059495C09EE47D90E1C0158 /* TokenCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TokenCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C864B9F9DF07DA6198246F5E31E1751 /* Authenticator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Authenticator.swift; path = Sources/CryptoSwift/Authenticator.swift; sourceTree = "<group>"; };
 		8D39AA11E12EEF753A637DCE58C4348D /* Pods-TokenCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TokenCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E72D0339173D69A04E9E0120F92DF24 /* ChaCha20+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ChaCha20+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
@@ -829,12 +830,12 @@
 		99A2E811DC4FBE9A75B39E4CB8A023CE /* WalletMeta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WalletMeta.swift; sourceTree = "<group>"; };
 		99D2A0E9143CCDC477E48682150FFDD8 /* CoreBitcoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreBitcoin.debug.xcconfig; sourceTree = "<group>"; };
 		9A2333151D804C8AE41B116344D573CE /* Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Addition.swift; path = Sources/Addition.swift; sourceTree = "<group>"; };
-		9B193B4A6287FCFA5D6BB6F45F5596BA /* crypto_scrypt-hexconvert.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto_scrypt-hexconvert.c"; path = "libscrypt/crypto_scrypt-hexconvert.c"; sourceTree = "<group>"; };
+		9B193B4A6287FCFA5D6BB6F45F5596BA /* crypto_scrypt-hexconvert.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-hexconvert.c"; path = "libscrypt/crypto_scrypt-hexconvert.c"; sourceTree = "<group>"; };
 		9BE877569FA23EF7258DA4B7CF00D4E9 /* Pods-TokenCore_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TokenCore_Example-Info.plist"; sourceTree = "<group>"; };
 		9C2507F73AE014AFB831E256F11210AD /* BTCCurrencyConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCCurrencyConverter.m; path = CoreBitcoin/BTCCurrencyConverter.m; sourceTree = "<group>"; };
 		9C29F95E13C2CD80887FB9E55D638936 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		9C68E9AC2E32EF4FFB4E6ADB02B34AB5 /* CoreBitcoin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreBitcoin; path = CoreBitcoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC57A21C3D8B3415748E525A8D0BAD6 /* BTCEncryptedMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCEncryptedMessage.h; path = CoreBitcoin/BTCEncryptedMessage.h; sourceTree = "<group>"; };
 		9E2283A371CB2DCD8D7C92567168E071 /* BTCMerkleTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCMerkleTree.h; path = CoreBitcoin/BTCMerkleTree.h; sourceTree = "<group>"; };
 		9F9AAB12BFD0E38DCCFEEBB7CBF1D9F7 /* BTCPriceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPriceSource.h; path = CoreBitcoin/BTCPriceSource.h; sourceTree = "<group>"; };
@@ -879,7 +880,7 @@
 		B4C530276405B9B75385523E4830AFD1 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
 		B5FE64862D75B8BB26E2F76EF1AA3574 /* CoreBitcoin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CoreBitcoin.h; path = CoreBitcoin/CoreBitcoin.h; sourceTree = "<group>"; };
 		B685F988C8AF4DE3440CCCA376C5D249 /* SigUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SigUtil.swift; sourceTree = "<group>"; };
-		B6CB3B835079254469C18DB3666C3CE8 /* sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha256.c; path = libscrypt/sha256.c; sourceTree = "<group>"; };
+		B6CB3B835079254469C18DB3666C3CE8 /* sha256.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha256.c; path = libscrypt/sha256.c; sourceTree = "<group>"; };
 		B6FF99E773C97FA6225620F2DC57DD6E /* BTCAssetAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCAssetAddress.h; path = CoreBitcoin/BTCAssetAddress.h; sourceTree = "<group>"; };
 		B75ED78132FA8AFE19318375A37DF0D3 /* Cipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cipher.swift; path = Sources/CryptoSwift/Cipher.swift; sourceTree = "<group>"; };
 		B7B018C27CD5ADD7A3172E46D6D83349 /* ETHTransaction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ETHTransaction.swift; sourceTree = "<group>"; };
@@ -901,7 +902,7 @@
 		C2D01445254A1AB0B6ED64B2E7E966AC /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		C3FAF0A6577E96DE765BB8A56FB2C890 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/include/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
 		C4060C68CC677791417FF6E75902026A /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar.h; path = secp256k1/Classes/secp256k1/src/scalar.h; sourceTree = "<group>"; };
-		C427015CE1E3AFCD2FE612DF9921E32C /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_parsing.c; path = secp256k1/Classes/secp256k1/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
+		C427015CE1E3AFCD2FE612DF9921E32C /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lax_der_parsing.c; path = secp256k1/Classes/secp256k1/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
 		C489A3CDAE8247E4D63603804E1DF34E /* PKCS7Padding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKCS7Padding.swift; path = Sources/CryptoSwift/PKCS/PKCS7Padding.swift; sourceTree = "<group>"; };
 		C4BC09CFBF522010BD96F59691EEA2E9 /* libscrypt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libscrypt-prefix.pch"; sourceTree = "<group>"; };
 		C5507B8EF517366EFF7EE0FBCF71DD3C /* Identity+IPFS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Identity+IPFS.swift"; sourceTree = "<group>"; };
@@ -924,7 +925,7 @@
 		D004044898FC86CC294E1C660283B3C1 /* HKDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HKDF.swift; path = Sources/CryptoSwift/HKDF.swift; sourceTree = "<group>"; };
 		D0D618D0462A277CA73C16F964EBB44A /* GRKOpenSSLFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GRKOpenSSLFramework.release.xcconfig; sourceTree = "<group>"; };
 		D15CE9C934CDD3C768AE6A62002AE144 /* NoPadding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoPadding.swift; path = Sources/CryptoSwift/NoPadding.swift; sourceTree = "<group>"; };
-		D15E322D16BA32E5852E2C587D89F8C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D15E322D16BA32E5852E2C587D89F8C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D170B498A10131812266788E7F3BC4E9 /* Scrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scrypt.swift; path = Sources/CryptoSwift/Scrypt.swift; sourceTree = "<group>"; };
 		D18C48F4E332B39811B49DF60706207D /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/include/NSArray+PureLayout.h"; sourceTree = "<group>"; };
 		D1B2ECD2D8F62AB518A6CA282011A001 /* CryptoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoSwift-dummy.m"; sourceTree = "<group>"; };
@@ -943,7 +944,7 @@
 		D9C3D2CF47A017CA663688B87BFB512F /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = secp256k1/Classes/secp256k1/src/num.h; sourceTree = "<group>"; };
 		DA08D07A0056920CF7FDCBF682A5AD15 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		DB1930AE5DF81FAFEEAADCBFBA56C2A9 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		DB1DDCBCE51AC51262557A74B3F7A919 /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto_scrypt-nosse.c"; path = "libscrypt/crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
+		DB1DDCBCE51AC51262557A74B3F7A919 /* crypto_scrypt-nosse.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-nosse.c"; path = "libscrypt/crypto_scrypt-nosse.c"; sourceTree = "<group>"; };
 		DB7FA9353EC7986658451762B5DC741B /* BTCData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCData.m; path = CoreBitcoin/BTCData.m; sourceTree = "<group>"; };
 		DBA74281C389285108E6B53F21125481 /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		DBD840569D27C835D58304A877B43F35 /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low.h; path = secp256k1/Classes/secp256k1/src/scalar_low.h; sourceTree = "<group>"; };
@@ -952,7 +953,7 @@
 		DEBC19316F73C4103D542A3E36A59685 /* BTCHashID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCHashID.h; path = CoreBitcoin/BTCHashID.h; sourceTree = "<group>"; };
 		DEC88E8B70E546590565A8D7E8D6C8C7 /* BTCPaymentMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTCPaymentMethod.h; path = CoreBitcoin/BTCPaymentMethod.h; sourceTree = "<group>"; };
 		DF2580245ED92D27EB5932AC526A9664 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "Sources/CryptoSwift/String+Extension.swift"; sourceTree = "<group>"; };
-		E026241390ED6867B90719F6025E4BDF /* crypto-mcf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto-mcf.c"; path = "libscrypt/crypto-mcf.c"; sourceTree = "<group>"; };
+		E026241390ED6867B90719F6025E4BDF /* crypto-mcf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto-mcf.c"; path = "libscrypt/crypto-mcf.c"; sourceTree = "<group>"; };
 		E088BDDFFBEA4151B9F64EECF12BC13B /* Identity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
 		E149E68816880F723A42775912B53D19 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		E19B864C5A3ECD08E3FD3453A94F4253 /* BigNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BigNumber.swift; sourceTree = "<group>"; };
@@ -966,8 +967,8 @@
 		E56704CF70A00F501482C6EEC5A3EF8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E5FD18CE6AB28DB582D6D0EEC99D1FE2 /* Array+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Foundation.swift"; path = "Sources/CryptoSwift/Foundation/Array+Foundation.swift"; sourceTree = "<group>"; };
 		E6AB8327D34EA7210058C9B99C9280EB /* CCM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCM.swift; path = Sources/CryptoSwift/BlockMode/CCM.swift; sourceTree = "<group>"; };
-		E7602E6C88AB8D47FC9478A3748CBA1D /* crypto_scrypt-hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "crypto_scrypt-hash.c"; path = "libscrypt/crypto_scrypt-hash.c"; sourceTree = "<group>"; };
-		E7C4FF16C24F5DEF8E4F4B84EBCBA107 /* slowequals.c */ = {isa = PBXFileReference; includeInIndex = 1; name = slowequals.c; path = libscrypt/slowequals.c; sourceTree = "<group>"; };
+		E7602E6C88AB8D47FC9478A3748CBA1D /* crypto_scrypt-hash.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = "crypto_scrypt-hash.c"; path = "libscrypt/crypto_scrypt-hash.c"; sourceTree = "<group>"; };
+		E7C4FF16C24F5DEF8E4F4B84EBCBA107 /* slowequals.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = slowequals.c; path = libscrypt/slowequals.c; sourceTree = "<group>"; };
 		E81BBC4D822A936664D690DA243887E5 /* libscrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libscrypt.h; path = libscrypt/libscrypt.h; sourceTree = "<group>"; };
 		E83E354185CBE93071F3311CAFA87C56 /* CryptoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoSwift.debug.xcconfig; sourceTree = "<group>"; };
 		E8E2ECA33EBDCC98D17781D4C8319BFC /* BTCPaymentProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTCPaymentProtocol.m; path = CoreBitcoin/BTCPaymentProtocol.m; sourceTree = "<group>"; };
@@ -1141,7 +1142,6 @@
 				5247C5E23E28A68D4B27FC2360B6F6C9 /* Words and Bits.swift */,
 				E99EC99A616ECB955F060A9DC9495B04 /* Support Files */,
 			);
-			name = BigInt;
 			path = BigInt;
 			sourceTree = "<group>";
 		};
@@ -1169,7 +1169,6 @@
 				23BEFBA91F421C10F4CA153E48D94916 /* BTCTransactionSigner.swift */,
 				FA5EFADE88C2CCA6102E60F29FDF6898 /* SegWit.swift */,
 			);
-			name = Bitcoin;
 			path = Bitcoin;
 			sourceTree = "<group>";
 		};
@@ -1209,7 +1208,6 @@
 				84DFC847D2329F8B75A3CA5B4CCAAD01 /* ETHKeystore.swift */,
 				6309E6FC70CD6503D6F00C594F1C6458 /* ETHMnemonicKeystore.swift */,
 			);
-			name = Ethereum;
 			path = Ethereum;
 			sourceTree = "<group>";
 		};
@@ -1309,7 +1307,6 @@
 				0FF1A304927740E5E92B779481A572EE /* ZeroPadding.swift */,
 				138E6DA7239CF421296E06B296074B45 /* Support Files */,
 			);
-			name = CryptoSwift;
 			path = CryptoSwift;
 			sourceTree = "<group>";
 		};
@@ -1427,7 +1424,6 @@
 				BF94E12635A69F6CE1E432EF1F14CF8F /* segwit_addr.h */,
 				742E56FAE99EAC5DABAAA601AF8BAF7A /* Support Files */,
 			);
-			name = CoreBitcoin;
 			path = CoreBitcoin;
 			sourceTree = "<group>";
 		};
@@ -1487,7 +1483,6 @@
 				2BC6992DFE87B37B64BD5469DAE2B2F9 /* util.h */,
 				7BF967ED21F000B6E429EF55058061FB /* Support Files */,
 			);
-			name = secp256k1.swift;
 			path = secp256k1.swift;
 			sourceTree = "<group>";
 		};
@@ -1663,7 +1658,6 @@
 				5A44359CDBD2A83657B5B575E28A275F /* Frameworks */,
 				5C8A5BF828464CF76CB7AB5DDE661AC1 /* Support Files */,
 			);
-			name = GRKOpenSSLFramework;
 			path = GRKOpenSSLFramework;
 			sourceTree = "<group>";
 		};
@@ -1690,7 +1684,6 @@
 				D65BE748F226B9372E73D077DFBDC031 /* BTCKeystore.swift */,
 				BE9DF4C957C8ACA989B2A7D2F3173B2C /* BTCMnemonicKeystore.swift */,
 			);
-			name = Bitcoin;
 			path = Bitcoin;
 			sourceTree = "<group>";
 		};
@@ -1699,7 +1692,6 @@
 			children = (
 				3A73176F206AE213567AF3A9BDBC42D1 /* IdentityKeystore.swift */,
 			);
-			name = Identity;
 			path = Identity;
 			sourceTree = "<group>";
 		};
@@ -1711,7 +1703,6 @@
 				A53EAB888D32C251870DF19CF38CC41E /* EOSTransaction.swift */,
 				591E7F0075216451C5272B723E538990 /* EOSTransactionSigner.swift */,
 			);
-			name = EOS;
 			path = EOS;
 			sourceTree = "<group>";
 		};
@@ -1746,7 +1737,6 @@
 				C72ECD6A6746E65BFABA0E5956815049 /* sysendian.h */,
 				6C70E25F5185E652BC931DBF6837D38C /* Support Files */,
 			);
-			name = libscrypt;
 			path = libscrypt;
 			sourceTree = "<group>";
 		};
@@ -1826,7 +1816,6 @@
 				A438438765AD02357D1FC845B812D344 /* MBProgressHUD.m */,
 				EFBB94179BA7DE2A53FFE2A87ADB1F13 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1844,7 +1833,6 @@
 				30F3BF35711A7F5B8169A0490950CF28 /* PureLayoutDefines.h */,
 				17FE581EDBF97DF21BF48762BFFE67E5 /* Support Files */,
 			);
-			name = PureLayout;
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
@@ -1870,7 +1858,6 @@
 				AE311273E3E7476F2D7B112EA9EC3139 /* EOSLegacyKeystore.swift */,
 				3D4A4B2C76C1708D6683273591D36B60 /* EOSPermission.swift */,
 			);
-			name = EOS;
 			path = EOS;
 			sourceTree = "<group>";
 		};
@@ -1907,7 +1894,6 @@
 				48C84721D46463C74AECE21285BF4D70 /* ETHKey.swift */,
 				B7B018C27CD5ADD7A3172E46D6D83349 /* ETHTransaction.swift */,
 			);
-			name = Ethereum;
 			path = Ethereum;
 			sourceTree = "<group>";
 		};
@@ -1952,7 +1938,6 @@
 				A3EC7DEFDC99CAA0A5E69094DC0512A9 /* Validation.swift */,
 				7F1448871192DE0EC830FF77EB63B9E6 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -3436,8 +3421,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

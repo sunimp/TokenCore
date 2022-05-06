@@ -9,15 +9,15 @@
 import Foundation
 
 public struct EOSSignResult: Equatable {
-  public let hash: String
-  public let signs: [String]
-
-  public init(hash: String, signs: [String]) {
-    self.hash = hash
-    self.signs = signs
-  }
-
-  public static func == (lhs: EOSSignResult, rhs: EOSSignResult) -> Bool {
-    return lhs.hash == rhs.hash && lhs.signs == rhs.signs
-  }
+    public let hash: String
+    public let signs: [String]
+    
+    public init(hash: String, signs: [String]) {
+        self.hash = hash
+        self.signs = signs
+    }
+    
+    public static func == (lhs: EOSSignResult, rhs: EOSSignResult) -> Bool {
+        return lhs.hash == rhs.hash && lhs.signs == rhs.signs
+    }
 }

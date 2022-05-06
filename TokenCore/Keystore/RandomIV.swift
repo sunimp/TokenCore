@@ -9,12 +9,12 @@
 import Foundation
 
 class RandomIV {
-  let data: Data
-  var value: String {
-    return data.tk_toHexString()
-  }
-
-  init() {
-    data = Data.tk_random(of: 16)
-  }
+    let data: Data
+    var value: String {
+        return data.tk_toHexString()
+    }
+    
+    init() {
+        data = Data.tk_random(of: 16)
+    }
 }

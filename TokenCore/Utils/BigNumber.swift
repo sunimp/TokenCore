@@ -14,13 +14,13 @@ public struct BigNumber {
     private let value: BigUInt
     private let padding: Bool
     private let bytesLength: Int
-
+    
     private init(value: BigUInt, padding: Bool, bytesLength: Int) {
         self.value = value
         self.padding = padding
         self.bytesLength = bytesLength
     }
-
+    
     func serialize() -> [UInt8] {
         var bytes = value.serialize().bytes
         if padding {
@@ -30,15 +30,15 @@ public struct BigNumber {
         }
         return bytes
     }
-  
+    
     public func hexString() -> String {
-      return Hex.hex(from: serialize())
+        return Hex.hex(from: serialize())
     }
-
+    
     public var description: String {
         return value.description
     }
-
+    
     /// - Requires: accepts text with these formats:
     ///     * Big Int string as RLP specifies: e.g. #83729609699884896815286331701780722
     ///     * Hex string prefixed with "0x", e.g. 0x5208
@@ -49,11 +49,11 @@ public struct BigNumber {
     ///     For example if 0x5208 is passed in as '5208', it will be wrongly parsed as decimal 5208.
     ///
     /// If padding is true, 0x00 is padded to left to keep bytes length as input prefixed with 0s.
-  public static func parse(_ text: String, padding: Bool = false, paddingLen: Int = -1) -> BigNumber {
+    public static func parse(_ text: String, padding: Bool = false, paddingLen: Int = -1) -> BigNumber {
         var padding = padding
         var value: BigUInt
         var bytesLen: Int = 0
-
+        
         if text.hasPrefix("#") {
             let t = text.tk_substring(from: 1)
             value = BigUInt(extendedGraphemeClusterLiteral: t)
@@ -66,7 +66,7 @@ public struct BigNumber {
             if text.tk_isDigits {
                 // NOTE: if text is a hex string without alhpabet this won't work.
                 // It's just a simple guess. Better to pass in hex always prefixed with "0x".
-
+                
                 value = BigUInt(Hex.removePrefix(text), radix: 10)!
                 padding = false
             } else if Hex.isHex(text) {
@@ -78,12 +78,12 @@ public struct BigNumber {
                 value = BigUInt(0)
             }
         }
-    
+        
         bytesLen = paddingLen != -1 ? paddingLen : bytesLen
-
+        
         return BigNumber(value: value, padding: padding, bytesLength: bytesLen)
     }
-
+    
     private static func bytesLength(of string: String) -> Int {
         return (string.count + 1) / 2
     }
@@ -94,7 +94,7 @@ extension BigNumber {
     init?(_ v: Any) {
         padding = false
         bytesLength = 0
-
+        
         if let int = v as? Int64 {
             value = BigUInt(int)
         } else if let int = v as? Int {

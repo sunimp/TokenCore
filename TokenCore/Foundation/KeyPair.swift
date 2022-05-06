@@ -9,10 +9,10 @@
 import Foundation
 
 public struct KeyPair: Equatable {
-  public let privateKey: String
-  public let publicKey: String
-
-  public static func == (lhs: KeyPair, rhs: KeyPair) -> Bool {
-    return lhs.privateKey == rhs.privateKey && lhs.publicKey == rhs.publicKey
-  }
+    public let privateKey: String
+    public let publicKey: String
+    
+    public static func == (lhs: KeyPair, rhs: KeyPair) -> Bool {
+        return lhs.privateKey == rhs.privateKey && lhs.publicKey == rhs.publicKey
+    }
 }

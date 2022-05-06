@@ -9,20 +9,20 @@
 import Foundation
 
 public struct EOS {
-  struct Permission {
-    static let owner = "owner"
-    static let active = "active"
-  }
-
-  public struct PermissionObject {
-    public var permission: String
-    public var publicKey: String
-    public var parent: String
-
-    public init(permission: String, publicKey: String, parent: String) {
-      self.permission = permission
-      self.publicKey = publicKey
-      self.parent = parent
+    struct Permission {
+        static let owner = "owner"
+        static let active = "active"
     }
-  }
+    
+    public struct PermissionObject {
+        public var permission: String
+        public var publicKey: String
+        public var parent: String
+        
+        public init(permission: String, publicKey: String, parent: String) {
+            self.permission = permission
+            self.publicKey = publicKey
+            self.parent = parent
+        }
+    }
 }

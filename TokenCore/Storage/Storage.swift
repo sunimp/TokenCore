@@ -9,11 +9,11 @@
 import Foundation
 
 public protocol Storage {
-  init()
-  func tryLoadIdentity() -> Identity?
-  func loadWalletByIDs(_ walletIDs: [String]) -> [BasicWallet]
-  func deleteWalletByID(_ walletID: String) -> Bool
-  func cleanStorage() -> Bool
-  func flushIdentity(_ keystore: IdentityKeystore) -> Bool
-  func flushWallet(_ keystore: Keystore) -> Bool
+    init()
+    func tryLoadIdentity() -> Identity?
+    func loadWalletByIDs(_ walletIDs: [String]) -> [BasicWallet]
+    func deleteWalletByID(_ walletID: String) -> Bool
+    func cleanStorage() -> Bool
+    func flushIdentity(_ keystore: IdentityKeystore) -> Bool
+    func flushWallet(_ keystore: Keystore) -> Bool
 }

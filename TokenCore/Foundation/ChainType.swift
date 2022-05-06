@@ -9,14 +9,14 @@
 import Foundation
 
 public enum ChainType: String {
-  case eth = "ETHEREUM"
-  case btc = "BITCOIN"
-  case eos = "EOS"
-
-  public var privateKeySource: WalletMeta.Source {
-    if self == .eth {
-      return .privateKey
+    case eth = "ETHEREUM"
+    case btc = "BITCOIN"
+    case eos = "EOS"
+    
+    public var privateKeySource: WalletMeta.Source {
+        if self == .eth {
+            return .privateKey
+        }
+        return .wif
     }
-    return .wif
-  }
 }
