@@ -40,5 +40,8 @@
 
     ]
   },
+  "xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "swift_version": "5.0"
 }

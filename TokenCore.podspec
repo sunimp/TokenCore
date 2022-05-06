@@ -30,5 +30,8 @@ Pod::Spec.new do |s|
   s.dependency "CoreBitcoin"
   s.dependency "libscrypt"
   s.dependency "secp256k1.swift"
+  s.xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
 
 end
