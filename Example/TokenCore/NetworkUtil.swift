@@ -13,7 +13,7 @@ class NetworkUtil {
     public static func get(_ url: String) -> String {
         var result: String = ""
         let semaphore = DispatchSemaphore(value: 0)
-        AF.request(url).responseJSON { response in
+        AF.request(url).response { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result
@@ -31,7 +31,7 @@ class NetworkUtil {
     public static func post(_ url: String, body: Parameters) -> String {
         var result: String = ""
         let semaphore = DispatchSemaphore(value: 0)
-        AF.request(url, method: .post, parameters: body, encoding: JSONEncoding.default).responseJSON { response in
+        AF.request(url, method: .post, parameters: body, encoding: JSONEncoding.default).response { response in
             print("Request: \(String(describing: response.request))")   // original url request
             print("Response: \(String(describing: response.response))") // http url response
             print("Result: \(response.result)")                         // response serialization result

@@ -2,7 +2,7 @@ PODS:
   - Alamofire (5.6.1)
   - BigInt (5.3.0)
   - CoreBitcoin (0.6.9):
-    - GRKOpenSSLFramework
+    - GRKOpenSSLFramework (= 1.0.2.20.2)
   - CryptoSwift (1.2.0)
   - GRKOpenSSLFramework (1.0.2.20.2)
   - libscrypt (1.22.1)
@@ -62,7 +62,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
   BigInt: 6de9bd5382015cc6aef4b0a2b27f6645045829f2
-  CoreBitcoin: 40075758cf0c1769732b6975e65d6b1245f364b3
+  CoreBitcoin: e0ce757e92433b650dbf08b7e418d4e8fb380064
   CryptoSwift: 40e374e45291d8dceedcb0d6184da94533eaabdf
   GRKOpenSSLFramework: 01e3dd58a1d865111ac9439841119ff91a26e1f2
   libscrypt: 65e9fe7cbdf490cbece6c06136a057ab74f74b4d
@@ -71,6 +71,6 @@ SPEC CHECKSUMS:
   secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
   TokenCore: be7b1ddad2302cce29eaead098145f76ccffd7fd
 
-PODFILE CHECKSUM: 24adb8c3525cfbf26384ef883dbaaca6773ad2f6
+PODFILE CHECKSUM: 09d9714408a6b45e2f129a673b2d8a7af35d92bc
 
 COCOAPODS: 1.11.3
